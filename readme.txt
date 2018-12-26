@@ -9,6 +9,12 @@ use very small diameter rosin core solder wire and DO use extra flux.
 In the `pictures` directory you can see some high resolution pictures taken
 of a device built (hand-soldered) using this design.
 
+For software, for now you can use my modified version of flashrom. Hopefully
+support for this will be upstreamed soon.
+It supports both libusb (mcp2210_libusb branch) and directly using the hidraw
+kernel interface on Linux.
+https://github.com/kukrimate/flashrom
+
 ==== COPYING ====
 
 Any person obtaining a copy of this schematic and board design is permitted to
@@ -18,8 +24,8 @@ of not removing the copyright notice from the board silkscreen.
 
 ==== IMPORTANT DISCLAIMER ====
 
-THE SCHEMATIC AND BOARD DESIGN IS PROVIDED "AS IS" 
-AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS 
+THE SCHEMATIC AND BOARD DESIGN IS PROVIDED "AS IS"
+AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS
 SCHEMATIC AND BOARD DESIGN INCLUDING ALL IMPLIED WARRANTIES OF
 MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
 ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
